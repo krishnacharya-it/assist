@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+  <script type="text/javascript" src="src/selfw.js"></script>
+  <script src="src/articulate.js"></script>
+  <script src="src/script.js"></script>
+
+    <title>Krishna NP</title>
+</head>
+<body>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <a href="https://drive.google.com/file/d/1b1OAVcQ59-ohTNp2Jx4C5ExITaQU8hr3/view?usp=sharing" class="btn btn-default" style="width: 100%; ">Download Resume</a>
+    </div>
+</div>
+    <img src="agent.gif" alt="" style="width: 51%;bottom: 0;position: absolute; ">
+    <div id="text_board" style="padding-left: 207px;padding-right: 6px; "></div>
+    <div class="panel panel-default" style=" bottom: 0;  position: absolute; width: 100%;  background-color: slategrey; ">
+        <div class="panel-body">
+        <select class="form-control" onChange="answer(this.value)">
+            <option>Select Your question</option>
+            <option value="1">Tell me about Krishna</option>
+            <option value="2">Tell me about his academic background. </option>
+            <option value="3">Tell me about his experience</option>
+        </select>
+        </div>
+    </div>
+
+    <div style="display:none">
+        <span id="welcome">
+            Hello, I am Krishna's Personal Assistant.
+            Feel free to ask me any questions about his background, skills, or projects.
+        </span>
+
+        <span id="a_1">
+            Krishna completed my B.E. in Computer Science and Engineering, and he has around 8 years of experience in full-stack development.
+            He has worked extensively with technologies like React.js, Django, and PHP to build scalable internal tools and client-facing applications. He has also contributed to performance optimization, CI/CD automation, API integration, and mentoring junior team members.
+            He is passionate about building efficient, user-friendly applications that solve real business problems and continuously looks for ways to improve both frontend and backend workflows.
+        </span>
+
+        <span id="a_2">
+            Krishna completed my Bachelor of Engineering in Computer Science and Engineering from SDMCET Dharwad.
+            During his academic years, he gained a strong foundation in programming, data structures, algorithms, and database systems. He also worked on several mini-projects and a final year project, which helped him apply theoretical knowledge to real-world scenarios.
+            His academic background laid the groundwork for his interest in full-stack development and gave him the confidence to take on complex technical challenges in his professional career.
+        </span>
+
+        <span id="a_3">
+            Krishna has 8 years of experience in full-stack development, working with technologies like React.js, Django, and PHP.
+            Over the years, he’s developed and maintained more than 7 internal applications, mostly aimed at improving organizational workflows and efficiency. He’s handled both frontend and backend responsibilities — from building responsive UIs in React.js to developing APIs and business logic in Django and PHP.
+            He’s also worked on optimizing performance by implementing lazy loading and caching strategies to reduce server load. In one project for IDFC Bank, he helped avoid multiple unnecessary requests using advanced caching techniques.
+            Apart from development, he’s contributed to setting up automated deployment using CI/CD pipelines with Jenkins, integrated Jest testing for code quality, and participated in data migration tasks. He’s also mentored junior developers and conducted React.js training sessions internally.
+            Overall, he’s passionate about building scalable and maintainable applications that solve real business problems.
+        </span>
+    </div>
+</body>
+</html>
